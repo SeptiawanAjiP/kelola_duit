@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   showAlertDialog(BuildContext contex, int idTransaksi) {
-    Widget okButton = FlatButton(
+    Widget okButton = TextButton(
       child: Text("Yakin"),
       onPressed: () {
         //delete disini
